@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gamepad MIDI AUv3 — Support</title>
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<header>
+  <img src="icon.png" alt="">
+  <div>
+    <h1>Gamepad MIDI AUv3</h1>
+    <nav><a href="./">Support</a><a href="privacy.html">Privacy</a></nav>
+  </div>
+</header>
+
+<p>Gamepad MIDI turns a game controller into a MIDI controller inside AUM. It is an AUv3 MIDI plugin for iPhone and iPad.</p>
+
+<h2>Getting started</h2>
+<ul>
+  <li>Connect a game controller that iOS supports.</li>
+  <li>In AUM, add Gamepad MIDI to a MIDI slot.</li>
+  <li>Route its "Gamepad" output to the app you want to play, or to AUM's MIDI Control.</li>
+  <li>Tap the plugin window. It now has the gamepad.</li>
+</ul>
+
+<h2>Common questions</h2>
+<p><strong>The plugin doesn't react to the gamepad.</strong><br>
+iOS sends gamepad input only to the window in front. Tap the plugin window to give it the gamepad. Tap another window to give it back.</p>
+<p><strong>AUM's MIDI learn doesn't hear the gamepad.</strong><br>
+When AUM's learn screen is in front, the plugin can't hear the gamepad. Press the control, then tap SEND in the plugin's strip. Then arm LEARN in AUM. The plugin sends the control's lowest value once a second until you tap the strip again.</p>
+<p><strong>Where is my mapping saved?</strong><br>
+In the AUM session. Save the session to keep it.</p>
+
+<h2>Contact</h2>
+<p>Found a bug or have a question? <a href="https://github.com/jwex1000/gamepad-midi-site/issues">Open an issue on GitHub</a>.</p>
+</main>
+</body>
+</html>
